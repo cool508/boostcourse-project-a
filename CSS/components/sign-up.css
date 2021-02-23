@@ -1,0 +1,103 @@
+.sign-up-title {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sign-up {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+.sign-up form div p {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sign-up form .mar-bot:not(:last-child) {
+  margin-bottom: 20px;
+}
+.sign-up form div input,
+.sign-up form div textarea {
+  padding: 10px;
+  font-size: 12px;
+  color: #000000;
+}
+.sign-up .sign-up__id,
+.sign-up .sign-up__pw,
+.sign-up .sign-up__name,
+.sign-up .sign-up__email {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .sign-up__birth .sign-up__birth-box {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up .sign-up__birth .sign-up__birth-box select {
+  padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 12px;
+  color: #000;
+}
+.sign-up .sign-up__birth .sign-up__birth-box select:not(:last-child) {
+  margin-right: 10px;
+}
+.sign-up .sign-up__gender .sign-up__gender-box {
+  display: flex;
+  justify-content: flex-start;
+}
+.sign-up .sign-up__gender .sign-up__gender-box label:last-child {
+  flex-grow: 9;
+  flex-shrink: 9;
+}
+.sign-up .sign-up__gender .sign-up__gender-box label:not(:last-child) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.sign-up .sign-up__phone .sign-up__phone-box {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .sign-up__phone .sign-up__phone-box div {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up .sign-up__phone .sign-up__phone-box div input:first-child {
+  flex-basis: 78%;
+  margin-right: 1%;
+}
+.sign-up .sign-up__phone .sign-up__phone-box div input:last-child {
+  flex-basis: 20%;
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  font-size: 12px;
+  color: #ffffff;
+}
+.sign-up__hobby .sign-up__hobby-box {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up__hobby .sign-up__hobby-box label {
+  flex-basis: 10%;
+}
+.sign-up__hobby .sign-up__hobby-box label input {
+  margin-right: 5px;
+}
+.sign-up .sign-up__messege div {
+  display: flex;
+}
+.sign-up .sign-up__messege textarea {
+  flex: 1;
+  resize: none;
+}
+.sign-up .sign-up__btn button {
+  width: 100%;
+  border: 1px solid #08a600;
+  padding: 10px;
+  background-color: #4ec53d;
+  font-size: 16px;
+  color: #ffffff;
+}

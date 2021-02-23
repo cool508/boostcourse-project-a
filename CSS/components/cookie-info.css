@@ -1,0 +1,35 @@
+.cookie-info h4 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cookie-info .cookie-info__contents {
+  border: 1px solid #e4e4e4;
+  padding: 15px;
+}
+.cookie-info .cookie-info__contents ul li {
+  font-size: 12px;
+  color: #000;
+  list-style: inside;
+}
+.cookie-info .cookie-info__contents ul li a {
+  color: #559bfa;
+  text-decoration: underline;
+}
+.cookie-info .cookie-info__contents ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.cookie-info .cookie-info__contents ul li:first-child {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+.cookie-info .cookie-info__contents ul li:first-child span {
+  color: #559bfa;
+}
+.cookie-info .cookie-info__contents ul li:nth-child(2) span {
+  font-size: 12px;
+  color: #ec5336;
+}

@@ -1,0 +1,118 @@
+@import "./reset.css";
+/* @import "./variables.css"; */
+/* Component */
+@import "./components/kid-size.css";
+@import "./components/refund-amount.css";
+@import "./components/sign-up.css";
+@import "./components/dictionnary.css";
+@import "./components/search-terms.css";
+@import "./components/cookie-info.css";
+@import "./components/news.css";
+@import "./components/webtoon.css";
+
+/* 공통 스타일? */
+.subTitle {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.textBold {
+  font-weight: bold;
+}
+/* layout */
+header {
+  width: 100vw;
+  height: 120px;
+  background-color: #000;
+}
+header .header-box {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+header .header-box__title {
+  padding: 40px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+nav {
+  margin-bottom: 40px;
+}
+nav .components__list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+nav .components__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 322px;
+  height: 33px;
+  border: 1px solid #d1d1d1;
+}
+nav .components__list-item:hover {
+  border-color: #454545;
+  font-weight: bold;
+}
+nav .components__list-item a {
+  font-size: 16px;
+  color: #000;
+}
+
+.components__title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #454545;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.component {
+  margin: 30px 0 0 0;
+  width: 1000px;
+  border: 1px solid #d1d1d1;
+}
+.component__title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 46px;
+  padding: 0 15px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #d1d1d1;
+}
+.component__title h3 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+.component__content {
+  padding: 30px;
+  font-size: 12px;
+  color: #000;
+}
+.component__content .component__content-list > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+footer {
+  padding: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px solid #d1d1d1;
+}
+footer p:first-child {
+  font-size: 12px;
+  color: #999;
+}
+footer p:last-child {
+  font-size: 12px;
+  color: #000;
+}

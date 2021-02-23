@@ -1,0 +1,35 @@
+.dictionary h4 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+.dictionary .dictionary__contents {
+  text-align: left;
+  vertical-align: bottom;
+  border: 1px solid #e4e4e4;
+  padding: 15px;
+}
+.dictionary .dictionary__contents h5 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  font-weight: bold;
+}
+.dictionary .dictionary__contents dl dt {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+.dictionary .dictionary__contents dl dt span {
+  font-size: 12px;
+  color: #559bfa;
+}
+.dictionary .dictionary__contents dl dd {
+  font-size: 12px;
+  color: #000000;
+}
+.dictionary .dictionary__contents dl dd:not(:last-child) {
+  margin-bottom: 25px;
+}
